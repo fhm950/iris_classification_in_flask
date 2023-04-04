@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <form action='/predict' method="POST">
+            Sepal Length: <input type='text' name="sepal_length">
+            Sepal Width: <input type='text' name="sepal_width">
+            Petal Length: <input type='text' name="petal_length">
+            Petal Width: <input type='text' name="petal_width">
+            Class: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
